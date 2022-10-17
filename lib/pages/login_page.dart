@@ -126,7 +126,9 @@ class loginPage extends StatelessWidget {
         width: double.infinity,
         padding: EdgeInsets.only(top: 40, left: 16, right: 16),
         child: TextButton(
-            onPressed: () {},
+            onPressed: () {
+              Navigator.pushNamed(context, '/home');
+            },
             style: TextButton.styleFrom(
                 backgroundColor: Colors.red.shade100,
                 shape: RoundedRectangleBorder(

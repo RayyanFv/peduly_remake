@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:peduly_remake/pages/home/main_page.dart';
 import 'package:peduly_remake/pages/signup_page.dart';
 import 'pages/splash_screen.dart';
 import 'pages/login_page.dart';
@@ -16,6 +17,7 @@ class MyApp extends StatelessWidget {
         '/': (context) => splashScreen(),
         '/login_page': (context) => loginPage(),
         '/sign-up': (context) => signUp(),
+        '/home' : (context) => mainPage(),
       },
     );
   }
